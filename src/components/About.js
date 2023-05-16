@@ -15,7 +15,7 @@ import npmSVG from './images/npm.svg';
 export default function About() {
   return (
     <div>
-      <h1>About</h1>
+      <h1 id='about'>About</h1>
       <h2>Who are you Xenia?</h2>
       <p>
         I’m a creative problem-solver who is committed to lifelong learning

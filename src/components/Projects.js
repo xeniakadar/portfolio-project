@@ -17,7 +17,8 @@ import firebaseSVG from './images/firebase.svg';
 export default function Projects() {
   return (
     <div>
-      <h1>Projects</h1>
+
+      <h1 id='projects'>Projects</h1>
       <div>
         <h1>Social Media Clone</h1>
         <p>A full stack photosharing social clone. It uses Firebase for its back-end and React, ReactRouter and CSS for its front-end. Users can add images with captions, as well as like and comment under other users' posts.</p>

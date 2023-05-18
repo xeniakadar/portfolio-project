@@ -29,7 +29,7 @@ export default function Projects() {
             <img className='tech--img' src={reactSVG} alt='' />
             <img className='tech--img' src={firebaseSVG} alt='' />
           </div>
-          <a href='https://github.com/xeniakadar/soc-clone'><button>Repository</button></a>
+          <a href='https://github.com/xeniakadar/soc-clone' target="_blank"><button>Repository</button></a>
 
         </div>
       </div>
@@ -42,7 +42,7 @@ export default function Projects() {
           <div className='projects--tech'>
             <img className='tech--img' src={reactSVG} alt='' />
           </div>
-          <a href='https://github.com/xeniakadar/project-shopping-cart'><button>Repository</button></a>
+          <a href='https://github.com/xeniakadar/project-shopping-cart' target="_blank"><button>Repository</button></a>
         </div>
       </div>
 
@@ -54,7 +54,7 @@ export default function Projects() {
           <div className='projects--tech'>
             <img className='tech--img' src={reactSVG} alt='' />
           </div>
-          <a href='https://github.com/xeniakadar/memorycard-project'><button>Repository</button></a>
+          <a href='https://github.com/xeniakadar/memorycard-project' target="_blank"><button>Repository</button></a>
         </div>
       </div>
 
@@ -68,7 +68,7 @@ export default function Projects() {
             <img className='tech--img' src={cssSVG} alt='' />
             <img className='tech--img' src={jsSVG} alt='' />
           </div>
-          <a href='https://github.com/xeniakadar/calculator-project'><button>Repository</button></a>
+          <a href='https://github.com/xeniakadar/calculator-project' target="_blank"><button>Repository</button></a>
         </div>
       </div>
 

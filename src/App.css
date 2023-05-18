@@ -233,10 +233,12 @@ h1.navbar--logo {
   position: absolute;
   content: '';
   height: .3em;
-  width: 3em;
+  width: 2em;
   bottom: 0.2em;
   z-index: -1;
-  background-color: #D0E2FF;
+  background-color: #E4BCC7;
+  margin-right: 0.9em;
+
 }
 
 .about--container h2 {

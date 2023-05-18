@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "//xeniakadar.github.io/portfolio-project/static/css/main.53fd98ec.css",
+    "main.js": "//xeniakadar.github.io/portfolio-project/static/js/main.eba65243.js",
+    "static/media/memorycard.gif": "//xeniakadar.github.io/portfolio-project/static/media/memorycard.2cafc50ab8e58b064369.gif",
+    "static/media/soc-media-clone.gif": "//xeniakadar.github.io/portfolio-project/static/media/soc-media-clone.8c2696b3391a7d6b2132.gif",
+    "static/media/shoppingcart.gif": "//xeniakadar.github.io/portfolio-project/static/media/shoppingcart.78012b8aac3139788b58.gif",
+    "static/media/calculator.gif": "//xeniakadar.github.io/portfolio-project/static/media/calculator.bc570e16bba22cc62c56.gif",
+    "static/media/react.svg": "//xeniakadar.github.io/portfolio-project/static/media/react.598d90dd4f36234e376cbc6ccd571550.svg",
+    "static/media/jest.svg": "//xeniakadar.github.io/portfolio-project/static/media/jest.1ba09f96f00b224697295e3a7d351dfc.svg",
+    "static/media/github.svg": "//xeniakadar.github.io/portfolio-project/static/media/github.e35c71752b296aa276f44b3be062ef25.svg",
+    "static/media/js.svg": "//xeniakadar.github.io/portfolio-project/static/media/js.0866c81b3b841c647e23b8a5d991c312.svg",
+    "static/media/linkedin.svg": "//xeniakadar.github.io/portfolio-project/static/media/linkedin.19ab380e6e940cf89e9784f11279f6f4.svg",
+    "static/media/webpack.svg": "//xeniakadar.github.io/portfolio-project/static/media/webpack.13dd22e3b763fc1ef03fc365ea341527.svg",
+    "static/media/mail.svg": "//xeniakadar.github.io/portfolio-project/static/media/mail.bcff41bc01244d27a8ad4acac7bbe723.svg",
+    "static/media/git.svg": "//xeniakadar.github.io/portfolio-project/static/media/git.8ee81345da1c18b6cdb4bbe93b464810.svg",
+    "static/media/firebase.svg": "//xeniakadar.github.io/portfolio-project/static/media/firebase.8f69a13150a1594d8fb73df74f12b548.svg",
+    "index.html": "//xeniakadar.github.io/portfolio-project/index.html",
+    "static/media/npm.svg": "//xeniakadar.github.io/portfolio-project/static/media/npm.e95e6392f67f73c87a03d0eda8d384c7.svg",
+    "static/media/css.svg": "//xeniakadar.github.io/portfolio-project/static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
+    "static/media/html.svg": "//xeniakadar.github.io/portfolio-project/static/media/html.0107c93943a8f415b5db64ebb0a9d12d.svg",
+    "static/media/wave.svg": "//xeniakadar.github.io/portfolio-project/static/media/wave.59d4384c87af0cff0b94ab57e077b989.svg",
+    "static/media/close.svg": "//xeniakadar.github.io/portfolio-project/static/media/close.8a6c23340221ee2c2c32b82814f4992e.svg",
+    "static/media/blob.svg": "//xeniakadar.github.io/portfolio-project/static/media/blob.4dbbb4d9a0e9bed753fe17eeba2aac71.svg",
+    "static/media/wave2.svg": "//xeniakadar.github.io/portfolio-project/static/media/wave2.818943b89e8405c54c8007b3c6dd9913.svg",
+    "static/media/menu.svg": "//xeniakadar.github.io/portfolio-project/static/media/menu.dde88d4cefbad937d2b8817ace90f200.svg",
+    "static/media/blob5.svg": "//xeniakadar.github.io/portfolio-project/static/media/blob5.2589952445602b948514b8d386d7a37c.svg",
+    "main.53fd98ec.css.map": "//xeniakadar.github.io/portfolio-project/static/css/main.53fd98ec.css.map",
+    "main.eba65243.js.map": "//xeniakadar.github.io/portfolio-project/static/js/main.eba65243.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53fd98ec.css",
+    "static/js/main.eba65243.js"
+  ]
+}

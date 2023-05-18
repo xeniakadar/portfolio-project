@@ -1,6 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
 import React from 'react';
-import { NavLink, Link } from 'react-router-dom';
 import linkedinSVG from './images/linkedin.svg';
 import githubSVG from './images/github.svg';
 import mailSVG from './images/mail.svg';

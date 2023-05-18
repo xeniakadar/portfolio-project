@@ -1,6 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 
 import htmlSVG from './images/html.svg';
 import cssSVG from './images/css.svg';
@@ -17,12 +15,17 @@ import bottomwaveSvg from './images/wave2.svg';
 export default function About() {
   return (
     <div className='about--container'>
+      <img className='about--topwave' src={topwaveSvg} alt='' />
       <h1 id='about'>About</h1>
       <h2>Who <span>are</span> you Xenia?</h2>
-      <img className='about--topwave' src={topwaveSvg} alt='' />
       <p>
-        I’m a creative problem-solver who is committed to lifelong learning
-        with a passion for React, ReactNative and all things <span>webby devvy</span>.
+        I am an aspiring front-end developer who is eager to learn and grow in
+        the field. While I may not have extensive experience at this point, <br></br>
+        I am <span>committed</span> to acquiring the necessary skills and knowledge to excel
+        in front-end development. <br></br><br></br>I am <span>passionate</span> about creating visually
+        appealing and user-friendly websites, and I am constantly exploring new
+        technologies and staying up to date with the latest trends in web
+        development.
       </p>
       <div className='about--tech-container'>
         <div className='about--tech-item'>

@@ -179,6 +179,7 @@ h1.navbar--logo {
   height: 23em;
   top: 3em;
   right: -10em;
+  overflow-x: hidden;
 }
 
 .home--container h5 {
@@ -205,11 +206,18 @@ h1.navbar--logo {
 
 @media (min-width: 850px) {
   .home--container {
-    margin: 4em
+    margin: 4em;
+    margin-bottom: 0;
   }
   .home--container h1::before {
     width: 35%;
     left: 0;
+  }
+  .home--container h5 {
+    position: relative;
+    margin-top: 6em;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 }
 
@@ -227,6 +235,10 @@ h1.navbar--logo {
   font-size: 2.5em;
   margin-right: 0.9em;
   margin-bottom: 0px;
+  background-color: #D0E2FF;
+  z-index: 1;
+  margin: 0;
+  padding-right: 1em;
 }
 
 .about--container h1::before {
@@ -247,33 +259,55 @@ h1.navbar--logo {
   margin-top: 0;
   font-family: Alegreya;
   font-size: 2em;
+  font-weight: 700;
   position: relative;
-  top: 0.7em;
+  padding-bottom: 1em;
+  background-color: #D0E2FF;
+  margin: 0;
+  padding-left: 0.7em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
 }
 
 .about--container p {
   margin-left: 1.3em;
   margin-right: 1.3em;
+  margin-top: 1em;
   background-color: #D0E2FF;
   margin: 0px;
   padding: 1em;
   font-family: Montserrat;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1.5em;
-  margin-top: 0px;
-  padding-top: 0px;
+  margin-top: 0;
+  padding-top: 0;
   line-height: 1.4em;
+
 }
 
 .about--container span {
   font-style: italic;
+  position: relative;
+  z-index: 1;
+}
+
+.about--container span::before {
+  position: absolute;
+  content: '';
+  height: .3em;
+  width: 100%;
+  bottom: 0.1em;
+  z-index: -1;
+  background-color: #E4BCC7;
+  margin-right: 0.9em;
 }
 
 .about--topwave {
   margin: 0;
   padding: 0;
   position: relative;
-  top: 0.3em;
+  top: 1em;
+  z-index: -1;
 }
 .about--bottomwave {
   margin: 0;
@@ -321,20 +355,23 @@ h1.navbar--logo {
 }
 
 @media (min-width: 850px) {
-  .about--container h2 {
-    margin-left: 1.4em;
-    font-size: 2.6em;
-    margin-bottom: 0;
+  .about--topwave {
+    top: 3em;
   }
 
-  .about--container h1 {
-    margin-right: 2em;
+  .about--container {
+    margin-top: 0;
+  }
+
+  .about--container h2 {
+    padding-left: 1em;
+    font-size: 2.6em;
   }
 
   .about--container p {
     padding-left: 2em;
     padding-right: 2em;
-    line-height: 2em;
+    line-height: 1.6em;
     font-size: 1.5em;
   }
 
@@ -459,8 +496,13 @@ h1.navbar--logo {
     grid-template-areas:
     "header header"
     "image info";
-    gap: 1em;
+    gap: 1.7em;
   }
+
+  #projects::before {
+    width: 4em;
+  }
+
   .projects--container h1 {
     font-size: 3em;
   }
@@ -512,7 +554,7 @@ h1.navbar--logo {
     height: .3em;
     width: 27%;
     bottom: 0.2em;
-    left: -2em;
+    left: 0em;
     z-index: -1;
     background-color: #E4BCC7;
   }

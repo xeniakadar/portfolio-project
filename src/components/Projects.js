@@ -50,7 +50,7 @@ export default function Projects() {
         <h2>Memorycard Game</h2>
           <img className='projects--demo' src={memorycardGif} alt='website-demo' />
         <div className='projects--leftcol'>
-          <p>Memory Card Game is a game that challenges players' memory skills by shuffling images after each selection. The objective is to achieve the highest possible score by avoiding selecting the same image more than once. The game displays both the current and best scores of the player.</p>
+          <p>The memorycard game challenges players' memory skills by shuffling images after each selection. The objective is to achieve the highest possible score by avoiding selecting the same image more than once. The game displays both the current and best scores of the player.</p>
           <div className='projects--tech'>
             <img className='tech--img' src={reactSVG} alt='' />
           </div>

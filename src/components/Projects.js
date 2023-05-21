@@ -24,7 +24,7 @@ export default function Projects() {
         <h2>Social Media Clone</h2>
         <img className='projects--demo' src={socmediaFig} alt='website-demo' />
         <div className='projects--leftcol'>
-          <p>A full stack photosharing social clone. It uses Firebase for its back-end and React, ReactRouter and CSS for its front-end. Users can add images with captions, as well as like and comment under other users' posts.</p>
+          <p>This application is a complete photo-sharing social clone that incorporates Firebase as its backend technology and employs React, ReactRouter, and CSS for its frontend development. It allows users to upload images along with captions and also enables them to like and comment on posts made by other users.</p>
           <div className='projects--tech'>
             <img className='tech--img' src={reactSVG} alt='' />
             <img className='tech--img' src={firebaseSVG} alt='' />
@@ -40,7 +40,7 @@ export default function Projects() {
         <h2>Shopping Cart project</h2>
         <img className='projects--demo' src={shoppingcartGif} alt='website-demo' />
         <div className='projects--leftcol'>
-          <p>A fake water-bottle store. Front-end only, built using React, React Router and CSS. The user can browse, add and remove items from the cart, and even add free shipping by signing up to the (fake) mailing list.</p>
+          <p>This is a fake online store specializing in water bottles. It is a frontend-only application constructed using React, React Router, and CSS. Users have the ability to explore the available products, add items to their shopping cart, and remove them as well. Additionally, users can take advantage of free shipping by signing up for the (fictional) mailing list.</p>
           <div className='projects--tech'>
             <img className='tech--img' src={reactSVG} alt='' />
           </div>
@@ -68,7 +68,7 @@ export default function Projects() {
         <h2>iPhone Calculator Clone</h2>
           <img className='projects--demo' src={calculatorFig} alt='website-demo' />
         <div className='projects--leftcol'>
-          <p>This was one of my first "big" projects where I used Javascript, CSS and HTML.</p>
+          <p>This project is really close to my heart as one of my first "big" adventures in the world of coding. It was the start of my journey into using JavaScript, CSS, and HTML and I think it turned out pretty great.</p>
           <div className='projects--tech'>
             <img className='tech--img' src={htmlSVG} alt='' />
             <img className='tech--img' src={cssSVG} alt='' />

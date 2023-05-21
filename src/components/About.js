@@ -11,6 +11,7 @@ import webpackSVG from './images/webpack.svg';
 import npmSVG from './images/npm.svg';
 import topwaveSvg from './images/wave.svg';
 import bottomwaveSvg from './images/wave2.svg';
+import reduxSVG from './images/redux.svg'
 
 export default function About() {
   return (
@@ -19,13 +20,13 @@ export default function About() {
       <h1 id='about'>About</h1>
       <h2>Who <span>are</span> you Xenia?</h2>
       <p>
-        I am an aspiring front-end developer who is eager to learn and grow in
-        the field. While I may not have extensive experience at this point, <br></br>
-        I am <span>committed</span> to acquiring the necessary skills and knowledge to excel
-        in front-end development. <br></br><br></br>I am <span>passionate</span> about creating visually
-        appealing and user-friendly websites, and I am constantly exploring new
-        technologies and staying up to date with the latest trends in web
-        development.
+        I'm an enthusiastic front-end developer with a marketing
+        background, <span>excited</span> to be part of the world of web creation.
+        I'm super eager to bring your ideas to life and create <span>visually appealing</span> and <span>user-friendly</span> websites that leave
+        a lasting impression. With my knowledge of user behavior
+        and effective design strategies from my marketing days,
+        I bring a <span>unique perspective</span> to front-end development.
+        Let's team up and build something awesome together!
       </p>
       <div className='about--tech-container'>
         <div className='about--tech-item'>
@@ -43,6 +44,10 @@ export default function About() {
         <div className='about--tech-item'>
           <img className='about--tech--img' src={reactSVG} alt='' />
          <h5>React.js</h5>
+        </div>
+        <div className='about--tech-item'>
+          <img className='about--tech--img' src={reduxSVG} alt='' />
+         <h5>Redux</h5>
         </div>
         <div className='about--tech-item'>
          <img className='about--tech--img' src={firebaseSVG} alt='' />

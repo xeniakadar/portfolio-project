@@ -82,6 +82,10 @@ h1.navbar--logo {
   text-align: right;
 }
 
+.navbar--items a:hover {
+  text-decoration: underline;
+}
+
 .navbar--menuimg.menu-open {
   display: none;
 }
@@ -124,8 +128,8 @@ h1.navbar--logo {
   }
   .navbar--items a {
     margin-right: 1em;
-    font-size: 1.6em;
-    margin-top: 1em;
+    font-size: 1.4em;
+    margin-top: 1.3em;
     color: #3E4756;
     font-family: Montserrat;
     font-weight: 500;
@@ -177,7 +181,7 @@ h1.navbar--logo {
   position: absolute;
   z-index: -1;
   height: 23em;
-  top: 3em;
+  top: 4em;
   right: -10em;
   overflow-x: hidden;
 }
@@ -188,17 +192,35 @@ h1.navbar--logo {
   letter-spacing: 1px;
 }
 
+.home--profileimg {
+  position: absolute;
+  z-index: -1;
+  height: 10em;
+  top: 19em;
+  right: 2em;
+  overflow-x: hidden;
+  border: 8px solid #eff3f9;
+  rotate:8deg;
+}
+
 @media (min-width: 500px) {
   .home--container h1 {
     font-size: 3em;
+    grid-area: header;
   }
 
   .home--container p {
     font-size: 1.7em;
+    grid-area: p;
   }
 
   .home--container h5 {
     font-size: 1.4em;
+    grid-area: h5;
+  }
+  .home--profileimg {
+    height: 13em;
+    grid-area: photo;
   }
 
 
@@ -208,16 +230,56 @@ h1.navbar--logo {
   .home--container {
     margin: 4em;
     margin-bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "header header"
+      "p photo"
+      "h5 photo";
+    gap: 2em;
   }
+
+  .home--container p {
+    font-size: 1.9em;
+    grid-area: p;
+  }
+
+  .home--container h1 {
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+
+  }
+
   .home--container h1::before {
-    width: 35%;
-    left: 0;
+    width: 7em;
+    left: -1;
   }
   .home--container h5 {
     position: relative;
     margin-top: 6em;
     margin-bottom: 0;
     padding-bottom: 0;
+  }
+
+  .home--profileimg {
+    height: 25em;
+    z-index: 1;
+    rotate: 5deg;
+    position: unset;
+    place-content: center;
+    margin-left: 4em;
+
+  }
+}
+
+@media (min-width: 1250px) {
+  .home--profileimg {
+    height: 30em;
+  }
+  .home--container p {
+    font-size: 2em;
   }
 }
 
@@ -337,12 +399,12 @@ h1.navbar--logo {
 }
 
 .about--tech--img, .tech--img {
-  height: 3em;
+  height: 3.5em;
 }
 
 @media (min-width: 500px) {
   .about--container h1 {
-    font-size: 3em;
+    font-size: 4.5em;
   }
 
   .about--container h2 {
@@ -350,7 +412,7 @@ h1.navbar--logo {
   }
 
   .about--tech--img {
-    height: 5em;
+    height: 7em;
   }
 }
 
@@ -384,6 +446,8 @@ h1.navbar--logo {
 
 .projects--container {
   padding: 1em;
+  display: flex;
+  flex-direction: column;
 }
 
 .projects--container h1 {
@@ -391,7 +455,7 @@ h1.navbar--logo {
   font-family: Alegreya;
   position: relative;
   font-size: 2.5em;
-  margin-bottom: 0px;
+  margin-bottom: 0.4em;
   padding-top: 0;
   margin-top: 0;
 }
@@ -446,10 +510,11 @@ h1.navbar--logo {
   color: white;
   margin-top: 1em;
   cursor: pointer;
+  transition: all .2s ease-in-out;
 }
 
 .projects--container button:hover {
-  background-color: #b18893;
+  transform: scale(1.02);
 }
 
 .projects--card {
@@ -457,14 +522,13 @@ h1.navbar--logo {
   position: relative;
 }
 
-.projects--card::before {
+/* .projects--card::before {
   position: absolute;
   content: '';
   height: .1em;
   width: 15em;
   top: -1.5em;
   width: 100%;
-  /* left: 1em; */
   z-index: -1;
   background-color: #cfabb5;
 }
@@ -475,8 +539,15 @@ h1.navbar--logo {
   width: 15em;
   top: -1.5em;
   width: 100%;
-  /* left: 1em; */
   z-index: -1;
+} */
+
+.projects--squigglysvg {
+  align-self: center;
+  /* width: 20em; */
+  width: 100%;
+  height: 5em;
+  margin-bottom: 2em;
 }
 
 .projects--more {
@@ -504,7 +575,7 @@ h1.navbar--logo {
   }
 
   .projects--container h1 {
-    font-size: 3em;
+    font-size: 4.5em;
   }
 
   .projects--card h2 {

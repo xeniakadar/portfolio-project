@@ -12,7 +12,7 @@ import cssSVG from './images/css.svg';
 import jsSVG from './images/js.svg';
 import reactSVG from './images/react.svg';
 import firebaseSVG from './images/firebase.svg';
-
+import squigglySVG from './images/squiggly.svg';
 
 export default function Projects() {
   return (
@@ -34,6 +34,8 @@ export default function Projects() {
         </div>
       </div>
 
+    <img className='projects--squigglysvg' src={squigglySVG} alt='' />
+
       <div className='projects--card'>
         <h2>Shopping Cart project</h2>
         <img className='projects--demo' src={shoppingcartGif} alt='website-demo' />
@@ -46,6 +48,8 @@ export default function Projects() {
         </div>
       </div>
 
+      <img className='projects--squigglysvg' src={squigglySVG} alt='' />
+
       <div className='projects--card'>
         <h2>Memorycard Game</h2>
           <img className='projects--demo' src={memorycardGif} alt='website-demo' />
@@ -57,6 +61,8 @@ export default function Projects() {
           <a href='https://github.com/xeniakadar/memorycard-project' target="_blank"><button>Repository</button></a>
         </div>
       </div>
+
+      <img className='projects--squigglysvg' src={squigglySVG} alt='' />
 
       <div className='projects--card'>
         <h2>iPhone Calculator Clone</h2>

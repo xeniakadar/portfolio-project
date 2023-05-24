@@ -161,7 +161,7 @@ h1.navbar--logo {
   position: absolute;
   content: '';
   height: .3em;
-  width: 65%;
+  width: 67%;
   bottom: 0.2em;
   left: -1em;
   z-index: -1;
@@ -253,7 +253,7 @@ h1.navbar--logo {
   }
 
   .home--container h1::before {
-    width: 7em;
+    width: 7.3em;
     left: -1;
   }
   .home--container h5 {

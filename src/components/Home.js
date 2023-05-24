@@ -1,16 +1,11 @@
-import { Routes, Route } from 'react-router-dom';
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 
-import blob5Svg from './images/blob5.svg';
 import profilePic from './images/profile.jpeg'
-
-
 
 export default function Home() {
   return (
     <div className='home--container'>
-      <h1 id='home'>Hey, I'm Xenia</h1>
+      <h1 id='home'>Hey, I'm Xenia!</h1>
       {/* <img className='home--blob' src={blob5Svg} alt='' /> */}
       <p>I'm a front-end developer who's got the self-motivation and skills to bring your vision to life. Let's do this!</p>
       {/* <button>Find Out More</button> */}

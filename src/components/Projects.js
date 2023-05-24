@@ -1,6 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 
 import shoppingcartGif from './images/projects/shoppingcart.gif';
 import socmediaFig from './images/projects/soc-media-clone.gif';

@@ -4,8 +4,6 @@ import githubSVG from './images/github.svg';
 import mailSVG from './images/mail.svg';
 import topwaveSvg from './images/wave.svg';
 
-
-
 export default function Contact() {
   return (
     <>
